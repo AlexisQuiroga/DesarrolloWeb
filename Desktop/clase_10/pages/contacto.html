@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>  
+</head>
+<body>   
+    <div>
+       <h1>Queremos saber mas de vos</h1>
+       <h3>Escríbenos una breve describcion de ti y aplica para ser parte de la empresa</h3>
+    </div>
+    
+<form>
+    <label for="name">Nombre:</label>
+    <input type="text" name="Nombre" placeholder="Ingresa un nombre"/>
+    <label for="Apellido">Apellido:</label>
+    <input type="text"name="Apellido" placeholder="Ingresa un apellido"/> 
+   
+    <form>
+        <fieldset>
+            <legend>Genero</legend>
+            <div>Hombre 
+                <input type="radio" name="sexo" value="hombre"></div>
+            <div>mujer
+                <input type="radio" name="sexo" value="mujer"> 
+            </div>
+
+            <legend>¿Mayor de 18 anios?</legend>
+                <select name="Mayor de 18 anios">
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>
+                </select>
+       
+        </fieldset>
+
+    </form>
+
+    <form> 
+        <legend>Acepta terminos y condiciones</legend> 
+        <input type="checkbox" name="acepta" value="1" />
+    </form>
+
+    <p>
+        <label for="mensaje" class="colocar_mensaje">Breve describcion de ti</label>                            
+        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Describite de forma corta y consisa"></textarea> 
+    </p>    
+    <fieldset><legend>Enviar formulario</legend>
+    <button type="submit" id="submit">Enviar</button>
+    </fieldset>  
+</form>
+<fieldset><footer>Pagina diseñada por Alexis Quiroga</footer></fieldset>
