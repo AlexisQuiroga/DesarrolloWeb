@@ -2,7 +2,7 @@
 /* generales */
 html {
   /* etiqueta raíz */
-  font-size: 100%; }
+  font-size: 75%; }
 
 * {
   margin: 0px;
@@ -10,6 +10,16 @@ html {
 
 body {
   font-family: 'Montserrat'; }
+
+
+.elec1 {
+  background-image: url("/assets/Electricidad.jpg"); }
+  
+.elec2 {
+  background-image: url("/assets/Electricidad2.jpg"); }
+  
+.elec3 {
+  background-image: url("/assets/Electricidad3.jpg"); }  
 
 
 header {
@@ -23,7 +33,7 @@ header nav .flexMenu {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  justify-content:space-around;
+  justify-content:space-evenly;
   padding: 40px;
   font-size: 1.2rem; }
 
@@ -46,7 +56,7 @@ header h1 {
   gap: 1px 1px;
   text-align: center;
   justify-content: stretch;
-  font-size: 2rem;
+  font-size: 1.5rem;
   grid-template-areas: "bannerUno bannerUno bannerUno bannerUno"
  "noticiaDos noticiaDos noticiaTres noticiaCuatro"
  "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro"; }
